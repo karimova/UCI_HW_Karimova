@@ -3,21 +3,33 @@
 Over $2 billion has been raised using the massively successful crowdfunding service, Kickstarter, but not every project has found success. Of the more than 300,000 projects launched on Kickstarter, only a third have made it through the funding process with a positive outcome.
 In this project, the Kickstarter database (4,000 past projects) was analyzed.  Obtained results, allowed to uncover some hidden market trends, and help to determine the main features required to run the successful projects.
 
+---
+
 ## **Input Data**
-All data can be found in the Excel file:   01-Excel_Challenge.xlsx
-Raw Kickstarter database is in the Sheet: Table
-The initial data of the database contains:
-name – the name of the project
-blurb – brief description of the project
-goal – required amount of money
-pledged – obtained amount of money
-state – the associated campaign was successful, failed, canceled, or is live
-country – country (US, GB, AU etc.)
-currency – the world currencies by countries
-deadline – date when project was ended (in Unix timestamps)
-launched_at – date when project was started (in Unix timestamps)
-backers_count – the total amount of backers donated for the project
-Category and Sub-Category – type of industry project belong (for example, food, music, games etc.)
+
+All data can be found in the Excel file: **01-Excel_Challenge.xlsx** 
+
+This workbook has 6 sheets:  
+* Table  
+* PivotTable_1  
+* PivotTable_2  
+* PivotTable_3  
+* Bonus  
+* Bonus_Stat
+
+The Kickstarter database can be found in the Table sheet. It contains following data:  
+`name` – the name of the project  
+`blurb` – brief description of the project
+`goal` – required amount of money  
+`pledged` – obtained amount of money  
+`state` – the associated campaign was successful, failed, canceled, or is live  
+`country` – country (US, GB, AU etc.)  
+`currency` – the world currencies by countries  
+`deadline` – date when project was ended (in Unix timestamps)  
+`launched_at` – date when project was started (in Unix timestamps)  
+`backers_count` – the total amount of backers donated for the project  
+`Category and Sub-Category` – type of industry project belong (for example, food, music, games etc.)
+
 
 Calculations and Formulas:
 All calculations and analysis were performed using Microsoft Excel (Office 365) program1. Supplementary data were calculated in the “Table” spreadsheet: 

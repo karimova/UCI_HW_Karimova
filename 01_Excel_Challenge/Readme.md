@@ -62,6 +62,8 @@ Excel’s functions LEFT and RIGTH were used to do it. Example of used formulas 
 Two new columns `Date Created Conversio` (column S) and `Date Ended Conversion` (column T) were created.
 
 
-## **References:**
-(1) [Microsoft Excel] (https://office.microsoft.com/excel)
+## **Data analysis**
+
+(1)	A new sheet with a pivot table (**PivotTable_1**) was created to analyze initial worksheet and count how many campaigns were successful, failed, canceled, or live per Category (**Fig.1, PivotTable_1**). Additionally, a stacked column pivot chart that can be filtered by `country` have been produced (**Fig.2, PivotTable_1**).
+
 

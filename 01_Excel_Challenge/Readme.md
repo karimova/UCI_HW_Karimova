@@ -21,7 +21,7 @@ The Kickstarter database can be found in the Table sheet. It contains following 
 * `blurb` – brief description of the project  
 * `goal` – required amount of money  
 * `pledged` – obtained amount of money  
-* `state` – the associated campaign was successful, failed, canceled, or is live  
+* `state` – the associated campaign was successful, failed, canceled, or live  
 * `country` – country (US, GB, AU etc.)  
 * `currency` – the world currencies by countries  
 * `deadline` – date when project was ended (in Unix timestamps)  
@@ -46,13 +46,21 @@ Essential calculations and formatting were performed in the Table spreadsheet.
 
 `Average Donation` =  `pledged` / `backers_count`
 
-The Category and Sub-Category column N was split into two parts: (i) Category (column Q), and (ii) Sub-Category (column R). Excel’s functions LEFT and RIGTH were used to do it. Example of used formulas for row #2 is presented below:
-Category=LEFT(N2,FIND("\"/\"",N2)-1)
-Sub-Category=RIGHT(N2,LEN(N2)-FIND("\"/\",N2))" 
-	To determine the dates when project was started and ended, the deadline and launched_at columns (with dates in Unix timestamps format) were converted it into an into Excel's date format using formulas:
-Date Created Conversion=(((launched_at/60)/60)/24)+DATE(1970,1,1)
-Date Ended Conversion=(((deadline/60)/60)/24)+DATE(1970,1,1)
-Two new columns Date Created Conversion (column S) and Date Ended Conversion (column T) were created.
+(5) The `Category and Sub-Category` (column N) was split into two parts: (i) `Category` (column Q), and (ii) `Sub-Category` (column R).   
+Excel’s functions LEFT and RIGTH were used to do it. Example of used formulas for row #2 is presented below:
+
+`Category` = LEFT(N2,FIND("\"/"\",N2)-1)
+
+`Sub-Category` = RIGHT(N2,LEN(N2)-FIND("\"/"\",N2)) 
+
+(6) To determine the dates when project was started and ended, the `deadline` and `launched_at columns` (with dates in Unix timestamps format) were converted it into an into Excel's date format using formulas:
+
+`Date Created Conversion` = (((`launched_at`/60)/60)/24)+DATE(1970,1,1)
+
+`Date Ended Conversion` = (((`deadline`/60)/60)/24)+DATE(1970,1,1)
+
+Two new columns `Date Created Conversio` (column S) and `Date Ended Conversion` (column T) were created.
+
 
 ## **References:**
 (1) [Microsoft Excel] (https://office.microsoft.com/excel)

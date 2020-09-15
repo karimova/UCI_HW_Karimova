@@ -1,7 +1,9 @@
-Excel Analysis of projects on Kickstarter
+# **Excel Analysis of projects on Kickstarter**
+
 Over $2 billion has been raised using the massively successful crowdfunding service, Kickstarter, but not every project has found success. Of the more than 300,000 projects launched on Kickstarter, only a third have made it through the funding process with a positive outcome.
 In this project, the Kickstarter database (4,000 past projects) was analyzed.  Obtained results, allowed to uncover some hidden market trends, and help to determine the main features required to run the successful projects.
-Input Data
+
+## **Input Data**
 All data can be found in the Excel file:   01-Excel_Challenge.xlsx
 Raw Kickstarter database is in the Sheet: Table
 The initial data of the database contains:
@@ -32,4 +34,7 @@ Sub-Category=RIGHT(N2,LEN(N2)-FIND("\"/\",N2))"
 Date Created Conversion=(((launched_at/60)/60)/24)+DATE(1970,1,1)
 Date Ended Conversion=(((deadline/60)/60)/24)+DATE(1970,1,1)
 Two new columns Date Created Conversion (column S) and Date Ended Conversion (column T) were created.
+
+## **References:**
+(1) [Microsoft Excel] (https://office.microsoft.com/excel)
 

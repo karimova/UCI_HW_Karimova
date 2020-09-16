@@ -69,14 +69,14 @@ Two new columns `Date Created Conversio` (column S) and `Date Ended Conversion` 
 A new sheet with a pivot table (**PivotTable_1**) was created to analyze initial worksheet and count how many campaigns were successful, failed, canceled, or live per Category (**Fig.1, PivotTable_1**). Additionally, a stacked column pivot chart that can be filtered by `country` have been produced (**Fig.2, PivotTable_1**).
 
 <p align="center">
-  <img width="50%" src="Images/Fig_1.png">
+  <img width="40%" src="Images/Fig_1.png">
 </p>
 <p align="center">
  <em><b>Figure 1.</b> Pivot table: Filter = country; Rows = Category; Columns = state; Values = Count of pledged.</em>
 </p>
   
 <p align="center">
-  <img width="80%" src="Images/Fig_2.png">
+  <img width="70%" src="Images/Fig_2.png">
 </p>
 <p align="center">
  <em><b>Figure 2.</b> A stacked column pivot chart that can be filtered by country based on the table in PivotTable_1.</em>
@@ -87,14 +87,14 @@ A new sheet with a pivot table (**PivotTable_1**) was created to analyze initial
 A new sheet with a pivot table (**PivotTable_2**) that will analyze the initial sheet to count how many campaigns were successful, failed, canceled, or live per Sub-Category (**Fig.3**). Additionally, a stacked column pivot chart that can be filtered by country based on the table have been produced (**Fig. 4, PivotTable_2**).
  
  <p align="center">
-  <img width="50%" src="Images/Fig_3.png">
+  <img width="40%" src="Images/Fig_3.png">
 </p>
 <p align="center">
  <em><b>Figure 3.</b> Pivot table: Filter = country and Category; Rows = Sub-Category; Columns = state; Values = Count of pledged.</em>
 </p>
   
 <p align="center">
-  <img width="100%" src="Images/Fig_4.png">
+  <img width="90%" src="Images/Fig_4.png">
 </p>
 <p align="center">
  <em><b>Figure 4.</b> A stacked column pivot chart that can be filtered by country and Category based on the table in PivotTable_2.</em>
@@ -105,20 +105,27 @@ A new sheet with a pivot table (**PivotTable_2**) that will analyze the initial 
 A new sheet with a pivot table (**PivotTable_3**) was created with a column of state, rows of Date Created Conversion, values based on the count of state, and filters based on Category and Years (**Fig.5**). Also, a pivot chart line graph that visualizes this new table is presented on **Fig.6** (**PivotTable_3**). 
 
  <p align="center">
-  <img width="50%" src="Images/Fig_5.png">
+  <img width="40%" src="Images/Fig_5.png">
 </p>
 <p align="center">
  <em><b>Figure 5.</b> Pivot table: Filter = Category and Years; Rows = Date Created Conversion; Columns = state; Values = Count of state.</em>
 </p>
   
 <p align="center">
-  <img width="50%" src="Images/Fig_6.png">
+  <img width="60%" src="Images/Fig_6.png">
 </p>
 <p align="center">
  <em><b>Figure 6.</b> Visualization of PivotTable_3.</em>
 </p>  
 
 ## **Conclutions**
+
+* Journalism is a less successful and commercial type of campaign. 
+* Obtained results showed that two the most successful and profitable category of the projects are: 
+Theater < Music 
+* In the Theater-Category, the most successful division is Plays. In the case of the Music-Category, Rock music is the most fortunate. 
+* The number of Cancelled projects does not have seasonal behavior: it is almost constant during the year. However, the number of successful projects is very sensitive to the season: it is increasing in the 1st half of the year (from January till June), but after June it is significantly decreasing till December.  
+
 
 ## **Bonus**
 
@@ -133,20 +140,22 @@ To count how many successful, failed, and canceled projects were created with go
 `Percentage Successful` =  (`Number Successful`)/(`Total Projects`) %                                               
 
 <p align="center">
-  <img width="100%" src="Images/Fig_7.png">
+  <img width="90%" src="Images/Fig_7.png">
 </p>
 <p align="center">
  <em><b>Figure 7.</b> Number and percentage of successful, failed, canceled, or live projects with respect to the type of goal.</em>
 </p>
   
 <p align="center">
-  <img width="100%" src="Images/Fig_8.png">
+  <img width="80%" src="Images/Fig_8.png">
 </p>
 <p align="center">
  <em><b>Figure 8.</b> The relationship between a goal's amount and its chances at success, failure, or cancellation.</em>
 </p> 
 
 #### **Conclution:**
+
+These results showed, that curves of "Percentage Failed " projects and "Percentage successful" projects an approximate mirror image of each other: both, the higher percentage of successful projects and the smallest percentage of the failed projects related to the smallest amount of requested money (goal), with increasing the money-goal situation became opposite. 
 
 ## **Bonus Statistical Analysis**
 
@@ -175,6 +184,13 @@ These data were used to evaluate the following statistical data for successful c
  <em><b>Figure 10.</b> The summary statistics table. </em>
 </p> 
 
+#### **Conclutions:** 
+According to obtained statistical data, both data sets are very dispersed: a big difference between minimum and maximum values. 
+This affect to the calculated data: 
+* For both sets the median summarizes data more meaningfully with respect to the mean.
+* There is more variability with successful campaigns: the variance of the number of backers is 712841, that is in 189 times higher than for unsuccessful campaign. 
+* The high values of variance allowed to conclude that the mean is not that useful and the less accurately data are summarized by the measure of central tendency.  
+* Additional tests should be applied to the data sets to check which features don't add much value to the model and which are of importance.
 
 
 

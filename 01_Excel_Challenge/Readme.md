@@ -122,7 +122,7 @@ A new sheet with a pivot table (**PivotTable_3**) was created with a column of s
 
 * Journalism is a less successful and commercial type of campaign.
 
-* Obtained results showed that two the most successful and profitable category of the projects are: Theater < Music 
+* Obtained results showed that two the most successful and profitable category of the projects are: Theater > Music 
 
 * In the Theater-Category, the most successful division is Plays. In the case of the Music-Category, Rock music is the most fortunate. 
 

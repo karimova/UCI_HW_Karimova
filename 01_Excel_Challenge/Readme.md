@@ -38,26 +38,26 @@ Essential calculations and formatting were performed in the Table spreadsheet.
 
 (2) A new `Percent Funded` (column O) was created. These data are used to uncover how much money a campaign made to reach its initial goal. Formula is:
 
-`Percent Funded` = (`pledged` ∙ 100) / goal                                                                       **(1)**
+`Percent Funded` = (`pledged` ∙ 100) / goal                                                                      
 
 (3) Then, conditional formatting was used to fill each cell in the `Percent Funded` column using a three-color scale. The scale starts at 0 and became a dark shade of red, transitioning to green at 100, and blue at 200.
 
 (4) A new column called `Average Donation` (column P) was created. These data are used to show how much each backer for the project paid on average. Formula is:
 
-`Average Donation` =  `pledged` / `backers_count`                                                                  (2)
+`Average Donation` =  `pledged` / `backers_count`                                                                
 
 (5) The `Category and Sub-Category` (column N) was split into two parts: (i) `Category` (column Q), and (ii) `Sub-Category` (column R).   
 Excel’s functions LEFT and RIGTH were used to do it. Example of used formulas for row #2 is presented below:
 
-`Category` = LEFT(N2,FIND("\"/"\",N2)-1)                                                                           (3)
+`Category` = LEFT(N2,FIND("\"/"\",N2)-1)                                                                       
 
-`Sub-Category` = RIGHT(N2,LEN(N2)-FIND("\"/"\",N2))                                                                (4)
+`Sub-Category` = RIGHT(N2,LEN(N2)-FIND("\"/"\",N2))                                                                
 
 (6) To determine the dates when project was started and ended, the `deadline` and `launched_at columns` (with dates in Unix timestamps format) were converted it into an into Excel's date format using formulas:
 
-`Date Created Conversion` = (((`launched_at`/60)/60)/24)+DATE(1970,1,1)                                            (5)
+`Date Created Conversion` = (((`launched_at`/60)/60)/24)+DATE(1970,1,1)                                           
 
-`Date Ended Conversion` = (((`deadline`/60)/60)/24)+DATE(1970,1,1)                                                 (6)
+`Date Ended Conversion` = (((`deadline`/60)/60)/24)+DATE(1970,1,1)                                                
 
 Two new columns `Date Created Conversio` (column S) and `Date Ended Conversion` (column T) were created.
 
@@ -126,26 +126,30 @@ A new sheet (**Bonus**) was created. In this part I have calculated: (i) the amo
 
 To count how many successful, failed, and canceled projects were created with goals within the ranges the following function Using the `COUNTIFS()` were applied (example of formulas for successful projects):
 
-`Number Successful` = COUNTIFS(Table!$D:$D,"<1000",Table!$F:$F,"successful")                                         (7)
+`Number Successful` = COUNTIFS(Table!$D:$D,"<1000",Table!$F:$F,"successful")                                      
 
-`Total Projects` = (`Number Successful` + `Number Failed` + `Number Canceled`)                                       (8)
+`Total Projects` = (`Number Successful` + `Number Failed` + `Number Canceled`)                                       
 
-`Percentage Successful` =  (`Number Successful`)/(`Total Projects`) %                                                (9)
-
+`Percentage Successful` =  (`Number Successful`)/(`Total Projects`) %                                               
 
 <p align="center">
-  <img width="50%" src="Images/Fig_7.png">
+  <img width="100%" src="Images/Fig_7.png">
 </p>
 <p align="center">
  <em><b>Figure 7.</b> Number and percentage of successful, failed, canceled, or live projects with respect to the type of goal.</em>
 </p>
   
 <p align="center">
-  <img width="50%" src="Images/Fig_8.png">
+  <img width="100%" src="Images/Fig_8.png">
 </p>
 <p align="center">
  <em><b>Figure 8.</b> The relationship between a goal's amount and its chances at success, failure, or cancellation.</em>
 </p> 
+
+#### **Conclution:**
+
+## **Bonus Statistical Analysis**
+
 
 
 

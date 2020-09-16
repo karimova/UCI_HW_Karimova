@@ -64,6 +64,42 @@ Two new columns `Date Created Conversio` (column S) and `Date Ended Conversion` 
 
 ## **Data analysis**
 
-(1)	A new sheet with a pivot table (**PivotTable_1**) was created to analyze initial worksheet and count how many campaigns were successful, failed, canceled, or live per Category (**Fig.1, PivotTable_1**). Additionally, a stacked column pivot chart that can be filtered by `country` have been produced (**Fig.2, PivotTable_1**).
+### **PivotTable_1**
+
+A new sheet with a pivot table (**PivotTable_1**) was created to analyze initial worksheet and count how many campaigns were successful, failed, canceled, or live per Category (**Fig.1, PivotTable_1**). Additionally, a stacked column pivot chart that can be filtered by `country` have been produced (**Fig.2, PivotTable_1**).
+
+<p align="center">
+  <img width="50%" src="Images/Fig_1.png">
+</p>
+<p align="center">
+ <em><b>Figure 1.</b> Pivot table: Filter = country; Rows = Category; Columns = state; Values = Count of pledged.</em>
+</p>
+  
+<p align="center">
+  <img width="80%" src="Images/Fig_2.png">
+</p>
+<p align="center">
+ <em><b>Figure 2.</b> A stacked column pivot chart that can be filtered by country based on the table in PivotTable_1.</em>
+</p>  
+
+### **PivotTable_2**
+
+ new sheet with a pivot table (**PivotTable_2**) that will analyze the initial sheet to count how many campaigns were successful, failed, canceled, or live per Sub-Category (**Fig.3**). Additionally, a stacked column pivot chart that can be filtered by country based on the table have been produced (**Fig. 4, PivotTable_2**).
+ 
+ <p align="center">
+  <img width="50%" src="Images/Fig_3.png">
+</p>
+<p align="center">
+ <em><b>Figure 3.</b> Pivot table: Filter = country and Category; Rows = Sub-Category; Columns = state; Values = Count of pledged.</em>
+</p>
+  
+<p align="center">
+  <img width="100%" src="Images/Fig_4.png">
+</p>
+<p align="center">
+ <em><b>Figure 4.</b> A stacked column pivot chart that can be filtered by country and Category based on the table in PivotTable_2.</em>
+</p>  
+
+
 
 

@@ -1,4 +1,4 @@
-# **Excel Analysis of projects on Kickstarter**
+# **Success rate analysis of projects on Kickstarter in Excel**
 
 Over $2 billion has been raised using the massively successful crowdfunding service, Kickstarter, but not every project has found success. Of the more than 300,000 projects launched on Kickstarter, only a third have made it through the funding process with a positive outcome.
 In this project, the Kickstarter database (4,000 past projects) was analyzed.  Obtained results, allowed to uncover some hidden market trends, and help to determine the main features required to run the successful projects.
@@ -24,7 +24,7 @@ The Kickstarter database can be found in the Table sheet. It contains following 
 * `state` – the associated campaign was successful, failed, canceled, or live  
 * `country` – country (US, GB, AU etc.)  
 * `currency` – the world currencies by countries  
-* `deadline` – date when project was ended (in Unix timestamps)  
+* `deadline` – expected date when project would be ended (in Unix timestamps)  
 * `launched_at` – date when project was started (in Unix timestamps)  
 * `backers_count` – the total amount of backers donated for the project  
 * `Category and Sub-Category` – type of industry project belong (for example, food, music, games etc.)
@@ -120,9 +120,9 @@ A new sheet with a pivot table (**PivotTable_3**) was created with a column of s
 
 ## **Conclutions**
 
-* Journalism is a less successful and commercial type of campaign.
+* Journalism is a less successful and less profitable type of campaign.
 
-* Obtained results showed that two the most successful and profitable category of the projects are: Theater > Music 
+* Obtained results showed that two of the most successful and profitable category of the projects are Theater and Music: Theater > Music 
 
 * In the Theater-Category, the most successful division is Plays. In the case of the Music-Category, Rock music is the most fortunate. 
 
@@ -156,11 +156,11 @@ To count how many successful, failed, and canceled projects were created with go
 
 #### **Conclution:**
 
-These results showed, that curves of "Percentage Failed " projects and "Percentage successful" projects an approximate mirror image of each other: both, the higher percentage of successful projects and the smallest percentage of the failed projects related to the smallest amount of requested money (goal), with increasing the money-goal situation became opposite. 
+These results showed, that curves of "Percentage Failed " projects and "Percentage successful" projects are an approximate mirror image of each other: both, the higher percentage of successful projects and the smallest percentage of the failed projects related to the smallest amount of requested money (goal), with increasing the goal the trend becomes opposite. 
 
 ## **Bonus Statistical Analysis**
 
-In this part, I have tried to evaluate the number of backers of successful and unsuccessful campaigns by creating the summary statistics table (**Fig. 9** and **Fig.10**).
+In this part, the number of backers of successful and unsuccessful campaigns was evaluated by creating the summary statistics table (**Fig. 9** and **Fig.10**).
 New worksheet (**Bonus_Stat**) in the workbook was created. Then a column each for the number of backers of successful campaigns and unsuccessful campaigns were generated (**Fig.9**).
 
 <p align="center">
@@ -187,10 +187,9 @@ These data were used to evaluate the following statistical data for successful c
 
 #### **Conclutions:** 
 According to obtained statistical data, both data sets are very dispersed: a big difference between minimum and maximum values. 
-This affect to the calculated data: 
-* For both sets the median summarizes data more meaningfully with respect to the mean.
+This affects the calculated data: 
+* For both sets the median summarizes data more meaningfully to the relevant value. Additionally, The high values of variance allowed to conclude that the mean is not that useful.
 * There is more variability with successful campaigns: the variance of the number of backers is 712841, that is in 189 times higher than for unsuccessful campaign. 
-* The high values of variance allowed to conclude that the mean is not that useful and the less accurately data are summarized by the measure of central tendency.  
 * Additional tests should be applied to the data sets to check which features don't add much value to the model and which are of importance.
 
 

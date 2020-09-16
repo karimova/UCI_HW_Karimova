@@ -128,6 +128,19 @@ A new sheet with a pivot table (**PivotTable_3**) was created with a column of s
 
 * The number of Cancelled projects does not have seasonal behavior: it is almost constant during the year. However, the number of successful projects is very sensitive to the season: it is increasing in the 1st half of the year (from January till June), but after June it is significantly decreasing till December.  
 
+### **Limitations of this dataset**
+
+*	The considered data set includes 4,000 past projects (from 300,000) only, which does not fully represent the population on Kickstarter campaigns. With a larger set, the ratio between successful and unsuccessful projects can be different.
+
+*	To get the final conclusion about the most successful Category of projects, we need to compare Kickstarter results with data obtained from other crowdfunding platforms.
+
+*	Additionally, it would be important to have data about the real profit of every project during the lifetime. Unfortunately, this dataset does not have this type of information. 
+
+### **Other possible tables/graphs that could be created**
+
+*	It will be very interesting to see the geographical distribution of successful and unsuccessful projects to see the preferences of different countries. To do this the pivot table: Filter = state, Rows = Category or Sub-Category, Columns = country, Values = Count of state. 
+
+
 ## **II. Bonus**
 
 A new sheet (**Bonus**) was created. In this part I have calculated: (i) the amount of successful, failed, canceled, or live projects with respect to the goal within the ranges (**Fig.7, Bonus**); (ii) calculated the total number of projects per goal category; and (iii) determined the percentage of successful, failed, canceled, or live projects with respect to the goal (**Fig.7**).

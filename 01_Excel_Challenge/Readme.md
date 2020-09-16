@@ -118,7 +118,7 @@ A new sheet with a pivot table (**PivotTable_3**) was created with a column of s
  <em><b>Figure 6.</b> Visualization of PivotTable_3.</em>
 </p>  
 
-### **Conclutions**
+### **Conclusions**
 
 * Journalism is a less successful and less profitable type of campaign.
 
@@ -154,7 +154,7 @@ To count how many successful, failed, and canceled projects were created with go
  <em><b>Figure 8.</b> The relationship between a goal's amount and its chances at success, failure, or cancellation.</em>
 </p> 
 
-### **Conclution:**
+### **Conclusion:**
 
 These results showed, that curves of "Percentage Failed " projects and "Percentage successful" projects are an approximate mirror image of each other: both, the higher percentage of successful projects and the smallest percentage of the failed projects related to the smallest amount of requested money (goal), with increasing the goal the trend becomes opposite. 
 
@@ -185,7 +185,7 @@ These data were used to evaluate the following statistical data for successful c
  <em><b>Figure 10.</b> The summary statistics table. </em>
 </p> 
 
-### **Conclutions:** 
+### **Conclusions:** 
 According to obtained statistical data, both data sets are very dispersed: a big difference between the minimum and maximum values. 
 This affects the calculated data: 
 * For both sets the median summarizes data more meaningfully to the relevant value. Additionally, The high values of variance allowed to conclude that the mean is not that useful.

@@ -16,18 +16,18 @@ This workbook has 6 sheets:
 * Bonus  
 * Bonus_Stat
 
-The Kickstarter database can be found in the Table sheet. It contains following data:  
+The Kickstarter database can be found in the Table sheet. It contains the following data:  
 * `name` – the name of the project  
 * `blurb` – brief description of the project  
-* `goal` – required amount of money  
+* `goal` – the required amount of money  
 * `pledged` – obtained amount of money  
 * `state` – the associated campaign was successful, failed, canceled, or live  
-* `country` – country (US, GB, AU etc.)  
+* `country` – country (US, GB, AU, etc.)  
 * `currency` – the world currencies by countries  
-* `deadline` – expected date when project would be ended (in Unix timestamps)  
-* `launched_at` – date when project was started (in Unix timestamps)  
+* `deadline` – expected date when the project would be ended (in Unix timestamps)  
+* `launched_at` – the date when the project was started (in Unix timestamps)  
 * `backers_count` – the total amount of backers donated for the project  
-* `Category and Sub-Category` – type of industry project belong (for example, food, music, games etc.)
+* `Category and Sub-Category` – a type of industry project belongs (for example, food, music, games etc.)
 
 
 ## **Calculations and Formulas:**
@@ -53,7 +53,7 @@ Excel’s functions LEFT and RIGTH were used to do it. Example of used formulas 
 
 `Sub-Category` = RIGHT(N2,LEN(N2)-FIND("\"/"\",N2))                                                                
 
-(6) To determine the dates when project was started and ended, the `deadline` and `launched_at columns` (with dates in Unix timestamps format) were converted it into an into Excel's date format using formulas:
+(6) To determine the dates when the project was started and ended, the `deadline` and `launched_at columns` (with dates in Unix timestamps format) were converted it into an into Excel's date format using formulas:
 
 `Date Created Conversion` = (((`launched_at`/60)/60)/24)+DATE(1970,1,1)                                           
 
@@ -66,7 +66,7 @@ Two new columns `Date Created Conversio` (column S) and `Date Ended Conversion` 
 
 ### **PivotTable_1**
 
-A new sheet with a pivot table (**PivotTable_1**) was created to analyze initial worksheet and count how many campaigns were successful, failed, canceled, or live per Category (**Fig.1, PivotTable_1**). Additionally, a stacked column pivot chart that can be filtered by `country` have been produced (**Fig.2, PivotTable_1**).
+A new sheet with a pivot table (**PivotTable_1**) was created to analyze the initial worksheet and count how many campaigns were successful, failed, canceled, or live per Category (**Fig.1, PivotTable_1**). Additionally, a stacked column pivot chart that can be filtered by `country` has been produced (**Fig.2, PivotTable_1**).
 
 <p align="center">
   <img width="40%" src="Images/Fig_1.png">
@@ -84,7 +84,7 @@ A new sheet with a pivot table (**PivotTable_1**) was created to analyze initial
 
 ### **PivotTable_2**
 
-A new sheet with a pivot table (**PivotTable_2**) that will analyze the initial sheet to count how many campaigns were successful, failed, canceled, or live per Sub-Category (**Fig.3**). Additionally, a stacked column pivot chart that can be filtered by country based on the table have been produced (**Fig. 4, PivotTable_2**).
+A new sheet with a pivot table (**PivotTable_2**) that will analyze the initial sheet to count how many campaigns were successful, failed, canceled, or live per Sub-Category (**Fig.3**). Additionally, a stacked column pivot chart that can be filtered by country based on the table has been produced (**Fig. 4, PivotTable_2**).
  
  <p align="center">
   <img width="40%" src="Images/Fig_3.png">
@@ -161,7 +161,7 @@ These results showed, that curves of "Percentage Failed " projects and "Percenta
 ## **Bonus Statistical Analysis**
 
 In this part, the number of backers of successful and unsuccessful campaigns was evaluated by creating the summary statistics table (**Fig. 9** and **Fig.10**).
-New worksheet (**Bonus_Stat**) in the workbook was created. Then a column each for the number of backers of successful campaigns and unsuccessful campaigns were generated (**Fig.9**).
+A new worksheet (**Bonus_Stat**) in the workbook was created. Then a column each for the number of backers of successful campaigns and unsuccessful campaigns was generated (**Fig.9**).
 
 <p align="center">
   <img width="40%" src="Images/Fig_9.png">
@@ -186,10 +186,10 @@ These data were used to evaluate the following statistical data for successful c
 </p> 
 
 ### **Conclutions:** 
-According to obtained statistical data, both data sets are very dispersed: a big difference between minimum and maximum values. 
+According to obtained statistical data, both data sets are very dispersed: a big difference between the minimum and maximum values. 
 This affects the calculated data: 
 * For both sets the median summarizes data more meaningfully to the relevant value. Additionally, The high values of variance allowed to conclude that the mean is not that useful.
-* There is more variability with successful campaigns: the variance of the number of backers is 712841, that is in 189 times higher than for unsuccessful campaign. 
+* There is more variability with successful campaigns: the variance of the number of backers is 712841, which is in 189 times higher than for unsuccessful campaign. 
 * Additional tests should be applied to the data sets to check which features don't add much value to the model and which are of importance.
 
 

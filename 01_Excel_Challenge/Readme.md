@@ -100,6 +100,25 @@ A new sheet with a pivot table (**PivotTable_1**) was created to analyze initial
  <em><b>Figure 4.</b> A stacked column pivot chart that can be filtered by country and Category based on the table in PivotTable_2.</em>
 </p>  
 
+### **PivotTable_3**
+
+3)	A new sheet with a pivot table (**PivotTable_3**) was created with a column of state, rows of Date Created Conversion, values based on the count of state, and filters based on Category and Years (**Fig.5**). Also, a pivot chart line graph that visualizes this new table is presented on **Fig.6** (**PivotTable_3**). 
+
+ <p align="center">
+  <img width="50%" src="Images/Fig_5.png">
+</p>
+<p align="center">
+ <em><b>Figure 5.</b> Pivot table: Filter = Category and Years; Rows = Date Created Conversion; Columns = state; Values = Count of state.</em>
+</p>
+  
+<p align="center">
+  <img width="50%" src="Images/Fig_6.png">
+</p>
+<p align="center">
+ <em><b>Figure 6.</b> Visualization of PivotTable_3.</em>
+</p>  
+
+
 
 
 

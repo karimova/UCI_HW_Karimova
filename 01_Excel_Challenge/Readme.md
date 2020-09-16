@@ -62,7 +62,7 @@ Excel’s functions LEFT and RIGTH were used to do it. Example of used formulas 
 Two new columns `Date Created Conversio` (column S) and `Date Ended Conversion` (column T) were created.
 
 
-## **Data analysis**
+## **I. Data analysis**
 
 ### **PivotTable_1**
 
@@ -128,7 +128,7 @@ A new sheet with a pivot table (**PivotTable_3**) was created with a column of s
 
 * The number of Cancelled projects does not have seasonal behavior: it is almost constant during the year. However, the number of successful projects is very sensitive to the season: it is increasing in the 1st half of the year (from January till June), but after June it is significantly decreasing till December.  
 
-## **Bonus**
+## **II. Bonus**
 
 A new sheet (**Bonus**) was created. In this part I have calculated: (i) the amount of successful, failed, canceled, or live projects with respect to the goal within the ranges (**Fig.7, Bonus**); (ii) calculated the total number of projects per goal category; and (iii) determined the percentage of successful, failed, canceled, or live projects with respect to the goal (**Fig.7**).
 
@@ -158,7 +158,7 @@ To count how many successful, failed, and canceled projects were created with go
 
 These results showed, that curves of "Percentage Failed " projects and "Percentage successful" projects are an approximate mirror image of each other: both, the higher percentage of successful projects and the smallest percentage of the failed projects related to the smallest amount of requested money (goal), with increasing the goal the trend becomes opposite. 
 
-## **Bonus Statistical Analysis**
+## **III. Bonus Statistical Analysis**
 
 In this part, the number of backers of successful and unsuccessful campaigns was evaluated by creating the summary statistics table (**Fig. 9** and **Fig.10**).
 A new worksheet (**Bonus_Stat**) in the workbook was created. Then a column each for the number of backers of successful campaigns and unsuccessful campaigns was generated (**Fig.9**).

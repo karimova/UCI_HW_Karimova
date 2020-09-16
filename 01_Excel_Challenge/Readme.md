@@ -150,6 +150,31 @@ To count how many successful, failed, and canceled projects were created with go
 
 ## **Bonus Statistical Analysis**
 
+In this part, I have tried to evaluate the number of backers of successful and unsuccessful campaigns by creating the summary statistics table (**Fig. 9** and **Fig.10**).
+New worksheet (**Bonus_Stat**) in the workbook was created. Then a column each for the number of backers of successful campaigns and unsuccessful campaigns were generated (**Fig.9**).
+
+<p align="center">
+  <img width="40%" src="Images/Fig_9.png">
+</p>
+<p align="center">
+ <em><b>Figure 9.</b> The number of backers of successful campaigns and unsuccessful campaigns.</em>
+</p>
+
+These data were used to evaluate the following statistical data for successful campaigns, and then for unsuccessful campaigns (see **Fig.10**): 
+*	The mean number of backers 
+*	The median number of backers
+*	The minimum number of backers.
+*	The maximum number of backers.
+*	The variance of the number of backers.
+*	The standard deviation of the number of backers.
+  
+<p align="center">
+  <img width="80%" src="Images/Fig_10.png">
+</p>
+<p align="center">
+ <em><b>Figure 10.</b> The summary statistics table. </em>
+</p> 
+
 
 
 

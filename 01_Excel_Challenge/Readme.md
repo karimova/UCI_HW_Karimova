@@ -120,12 +120,13 @@ A new sheet with a pivot table (**PivotTable_3**) was created with a column of s
 
 ## **Conclutions**
 
-* Journalism is a less successful and commercial type of campaign. 
-* Obtained results showed that two the most successful and profitable category of the projects are: 
-Theater < Music 
-* In the Theater-Category, the most successful division is Plays. In the case of the Music-Category, Rock music is the most fortunate. 
-* The number of Cancelled projects does not have seasonal behavior: it is almost constant during the year. However, the number of successful projects is very sensitive to the season: it is increasing in the 1st half of the year (from January till June), but after June it is significantly decreasing till December.  
+* Journalism is a less successful and commercial type of campaign.
 
+* Obtained results showed that two the most successful and profitable category of the projects are: Theater < Music 
+
+* In the Theater-Category, the most successful division is Plays. In the case of the Music-Category, Rock music is the most fortunate. 
+
+* The number of Cancelled projects does not have seasonal behavior: it is almost constant during the year. However, the number of successful projects is very sensitive to the season: it is increasing in the 1st half of the year (from January till June), but after June it is significantly decreasing till December.  
 
 ## **Bonus**
 

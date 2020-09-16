@@ -84,7 +84,7 @@ A new sheet with a pivot table (**PivotTable_1**) was created to analyze initial
 
 ### **PivotTable_2**
 
- new sheet with a pivot table (**PivotTable_2**) that will analyze the initial sheet to count how many campaigns were successful, failed, canceled, or live per Sub-Category (**Fig.3**). Additionally, a stacked column pivot chart that can be filtered by country based on the table have been produced (**Fig. 4, PivotTable_2**).
+A new sheet with a pivot table (**PivotTable_2**) that will analyze the initial sheet to count how many campaigns were successful, failed, canceled, or live per Sub-Category (**Fig.3**). Additionally, a stacked column pivot chart that can be filtered by country based on the table have been produced (**Fig. 4, PivotTable_2**).
  
  <p align="center">
   <img width="50%" src="Images/Fig_3.png">
@@ -102,7 +102,7 @@ A new sheet with a pivot table (**PivotTable_1**) was created to analyze initial
 
 ### **PivotTable_3**
 
-3)	A new sheet with a pivot table (**PivotTable_3**) was created with a column of state, rows of Date Created Conversion, values based on the count of state, and filters based on Category and Years (**Fig.5**). Also, a pivot chart line graph that visualizes this new table is presented on **Fig.6** (**PivotTable_3**). 
+A new sheet with a pivot table (**PivotTable_3**) was created with a column of state, rows of Date Created Conversion, values based on the count of state, and filters based on Category and Years (**Fig.5**). Also, a pivot chart line graph that visualizes this new table is presented on **Fig.6** (**PivotTable_3**). 
 
  <p align="center">
   <img width="50%" src="Images/Fig_5.png">

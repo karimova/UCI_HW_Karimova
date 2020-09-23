@@ -22,15 +22,15 @@ This VBA scripting was used to analyze real stock market data.
 
   * `Percent Change`: `the closing price at the end of that year` / `the opening price at the beginning of a given year` (for every ticker type). Format - Percent.
   
-  There was a problem with calculation of `Percent Change` for **PLNT** ticker type. The input table data of this ticker was equival to ZERO in the case of 2014. For 2015,
-  only first half of the year was eqvivalent to ZERO. As a result: "The Erro Divition by 0".
+      There was a problem with calculation of `Percent Change` for **PLNT** ticker type. The input table data of this ticker was equival to ZERO in the case of 2014. For 2015,
+      only first half of the year was eqvivalent to ZERO. As a result: "The Erro Divition by 0".
   
-  To avoid this problem approximations were applied:
+      To avoid this problem approximations were applied:
   
-  (1) If `Total Stock Volume` = 0, for this type of ticker the `Percent Change` became 0 as well.
+      (1) If `Total Stock Volume` = 0, for this type of ticker the `Percent Change` became 0 as well.
   
-  (2) If `Total Stock Volume` = 0 but the `closing price` OR `opening price` are NOT 0. In this case the script is lookong for the next/previous non-zero value in currecnt
-  ticker category and then use it for the calculations of `Percent Change` and `Yearly Changes`.
+      (2) If `Total Stock Volume` = 0 but the `closing price` OR `opening price` are NOT 0. In this case the script is lookong for the next/previous non-zero value in currecnt
+          ticker category and then use it for the calculations of `Percent Change` and `Yearly Changes`.
   
   * Conditional Formatting was applied for` Year Change` column: positive change in green and negative change in red.
   

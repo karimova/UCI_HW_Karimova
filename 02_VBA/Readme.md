@@ -1,10 +1,12 @@
-# **VBA Project**
+# **Project - The VBA of Wall Street**
 
-In this VBA scripting was used to analyze real stock market data.
+This VBA scripting was used to analyze real stock market data.
 
 ## **Results**
 
-To generate final report, file Multiple_year_stock_data.xlsx
+* [VBA script](vba_code.vb) - Use this while developing your scripts.
+The final homework report was generated using `Multiple_year_stock_data.xlsx` file.
+* VBA script can be found in the 
 
 * Create a script that will loop through all the stocks for one year and output the following information.
 
@@ -21,3 +23,7 @@ To generate final report, file Multiple_year_stock_data.xlsx
 * The result should look as follows.
 
 ![solution_2014](Images/2014.png)
+<p align="center">
+ <em><b>Figure 1.</b> A stacked column pivot chart that can be filtered by country based on the table in PivotTable_1.</em>
+</p>  
+

@@ -36,6 +36,9 @@ For Each ws In Worksheets
     ws.Cells(1, 17).Value = "Ticker"
     ws.Cells(1, 18).Value = "Value"
 
+    '------------------------------
+    'Part-I
+    '------------------------------
     'Calculating data - Tickers/Yearly Changes/Percent Change/Total Stock Volume
     tick_num = 0
     count = 0
@@ -53,11 +56,6 @@ For Each ws In Worksheets
             'numbers tickers per category
             'ws.Cells(1 + count, 15).Value = tick_num
 
-            '---------------YEARLY CHANGES--------------------
-            
-            year = ws.Cells(i, 6).Value - ws.Cells(i - tick_num + 1, 3).Value
-            ws.Cells(1 + count, 11).Value = year
-        
             '---------------TOTAL STOCK VOLUME--------------------
             'Total Stock Volume - SUM function for the Range
             totalStock = Application.Sum(Range(ws.Cells(i - tick_num + 1, 7), ws.Cells(i, 7)))
@@ -69,9 +67,10 @@ For Each ws In Worksheets
             'If TOtal Stock is zero - Percent Change will be 0 too.
             ' Looking for the next non-zero value in a row #3
             If (totalStock <> 0) And (ws.Cells(i - tick_num + 1, 3) = 0) Then
-                For m = 1 To tick_num
-                    If ws.Cells(m + 1, 3).Value <> 0 Then
-                        ws.Cells(i - tick_num + 1, 3) = ws.Cells(m + 1, 3)
+                
+                For m = 1 To (tick_num - 1)
+                    If ws.Cells(i - tick_num + 1 + m, 3).Value <> 0 Then
+                        ws.Cells(i - tick_num + 1, 3) = ws.Cells(i - tick_num + 1 + m, 3)
                         Exit For
                     End If
                 Next m
@@ -79,9 +78,9 @@ For Each ws In Worksheets
             
             ' Looking for the previous non-zero value in a row #6
             If (totalStock <> 0) And (ws.Cells(i, 6) = 0) Then
-                For n = 1 To tick_num
-                    If ws.Cells(tick_num - n, 6).Value <> 0 Then
-                        ws.Cells(i, 6) = ws.Cells(tick_num - n, 6)
+                For n = 1 To (tick_num - 1)
+                    If ws.Cells(i - n, 6).Value <> 0 Then
+                        ws.Cells(i, 6) = ws.Cells(i - n, 6)
                         Exit For
                     End If
                 Next n
@@ -95,6 +94,12 @@ For Each ws In Worksheets
             
             ws.Cells(1 + count, 12).Value = Format(percent, "Percent")
         
+        
+            '---------------YEARLY CHANGES--------------------
+            
+            year = ws.Cells(i, 6).Value - ws.Cells(i - tick_num + 1, 3).Value
+            ws.Cells(1 + count, 11).Value = year
+            
             '---------------CONDITIONAL FORMATING--------------------
             'Conditional Formatting for Year Change: positive change in green and negative change in red.
             If year > 0 Then
@@ -102,8 +107,8 @@ For Each ws In Worksheets
             Else
                 ws.Cells(1 + count, 11).Interior.ColorIndex = 3
             End If
-        
-           
+
+
             'Total Stock Volume set 0, when ticker type changed
             totalStock = 0
         
@@ -113,6 +118,10 @@ For Each ws In Worksheets
         End If
     Next i
     
+   '------------------------------
+    'Part-II
+    '------------------------------
+
     '---------------Looking for MINIMUM and MAXIMUM--------------------
     'Greatest % Increase / Greatest % Decrease / Greates Total Volume
     

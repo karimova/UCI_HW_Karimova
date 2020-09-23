@@ -47,16 +47,25 @@ This VBA scripting was used to analyze real stock market data.
   ## **Results**
 
 ![solution_2014](Images/2014.png)
+
+<p align="center">
+  <img width="100%" src="Images/2014.png">
+</p>
 <p align="center">
  <em><b>Figure 1.</b> Stock market data - 2014.</em>
 </p>  
 
-![solution_2015](Images/2015.png)
+
+<p align="center">
+  <img width="100%" src="Images/2015.png">
+</p>
 <p align="center">
  <em><b>Figure 2.</b> Stock market data - 2015.</em>
 </p> 
 
-![solution_2016](Images/2016.png)
+<p align="center">
+  <img width="100%" src="Images/2016.png">
+</p>
 <p align="center">
  <em><b>Figure 3.</b> Stock market data - 2016.</em>
 </p> 

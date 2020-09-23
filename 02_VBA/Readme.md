@@ -44,9 +44,8 @@ This VBA scripting was used to analyze real stock market data.
  
  * `Greates Total Volume`: - Maximum value in the `Total Stock Volume` column.
    
+  
   ## **Results**
-
-![solution_2014](Images/2014.png)
 
 <p align="center">
   <img width="100%" src="Images/2014.png">

@@ -22,8 +22,8 @@ This VBA scripting was used to analyze real stock market data.
 
   * `Percent Change`: `the closing price at the end of that year` / `the opening price at the beginning of a given year` (for every ticker type). Format - Percent.
   
-      There was a problem with calculation of `Percent Change` for **PLNT** ticker type. The input table data of this ticker was equival to ZERO in the case of 2014. For 2015,
-      only first half of the year was eqvivalent to ZERO. As a result: "The Erro Divition by 0".
+      There was a problem with calculation of `Percent Change` for **PLNT** ticker type. The input table data of this ticker are equival to ZERO in the case of 2014. For 2015,
+      only the data of the first half of the year are eqvivalent to ZERO. As a result: "The Erro Divition by 0".
   
       To avoid this problem approximations were applied:
   

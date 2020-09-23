@@ -3,7 +3,7 @@
 This VBA scripting was used to analyze real stock market data.
 
 
-## **Main Outlines of the VBA sctipt**
+## **Main Outlines of the VBA script**
 
 [VBA script](vba_code.vb) - Use this file to see the VBA script.
 

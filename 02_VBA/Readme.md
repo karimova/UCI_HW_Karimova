@@ -4,8 +4,12 @@ This VBA scripting was used to analyze real stock market data.
 
 ## **Results**
 
-* [VBA script](vba_code.vb) - Use this while developing your scripts.
-The final homework report was generated using `Multiple_year_stock_data.xlsx` file.
+* [VBA script](vba_code.vb) - Use this file to see the VBA script.
+
+* The final homework report was generated using `Multiple_year_stock_data.xlsx` file.
+
+
+
 * VBA script can be found in the 
 
 * Create a script that will loop through all the stocks for one year and output the following information.

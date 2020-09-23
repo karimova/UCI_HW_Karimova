@@ -29,7 +29,7 @@ This VBA scripting was used to analyze real stock market data.
   
   (1) If `Total Stock Volume` = 0, for this type of ticker the `Percent Change` became 0 as well.
   
-  (2) If `Total Stock Volume` = 0 but the `closing price` and `opening price` are NOT 0. In this case the script is lookong for the next/previous non-zero value in currecnt
+  (2) If `Total Stock Volume` = 0 but the `closing price` OR `opening price` are NOT 0. In this case the script is lookong for the next/previous non-zero value in currecnt
   ticker category and then use it for the calculations of `Percent Change` and `Yearly Changes`.
   
   * Conditional Formatting was applied for` Year Change` column: positive change in green and negative change in red.
@@ -43,8 +43,7 @@ This VBA scripting was used to analyze real stock market data.
  * `Greatest % Decrease`: - Minimum value in the `Percent Change` column.
  
  * `Greates Total Volume`: - Maximum value in the `Total Stock Volume` column.
- 
-  
+   
   ## **Results**
 
 ![solution_2014](Images/2014.png)

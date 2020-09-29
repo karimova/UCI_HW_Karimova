@@ -11,6 +11,13 @@ Two directories were created: `PyBank` and  `PyPoll`.
 
 budget_data.csv - a set of financial data. 
 
+### Input/output files:
+
+Input file location: "Resources/budget_data.csv"
+
+Output file location: "analysis/output.txt"
+
+
 * The sctipt **main.py** analyzes the records to calculate each of the following:
 
   * The total number of months included in the dataset
@@ -32,6 +39,13 @@ budget_data.csv - a set of financial data.
 ## PyPoll
 
 election_data.csv - - a set of data.
+
+### Input/output files:
+
+#Input file: "Resources/election_data.csv"
+
+#Output file: "analysis/output.txt"
+
 
 * The sctipt **main.py** analyzes the records to calculate each of the following:
 

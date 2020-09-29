@@ -47,4 +47,8 @@ election_data.csv - - a set of data.
 
 * The final script print the analysis to the terminal and export a text file with the results.
 
+<p align="left">
+  <img width="40%" src="Images/pypoll_txt.png">
+</p>
+
   

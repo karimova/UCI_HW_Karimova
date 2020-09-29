@@ -26,7 +26,7 @@ budget_data.csv - a set of financial data.
 Obtained results can be found below (printscreen of terminal):
 
 <p align="left">
-  <img width="100%" src="Images/pybank_terminal.png">
+  <img width="30%" src="Images/pybank_terminal.png">
 </p>
 
 

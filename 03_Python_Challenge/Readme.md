@@ -23,18 +23,11 @@ budget_data.csv - a set of financial data.
 
   * The greatest decrease in losses (date and amount) over the entire period
 
-Obtained results can be found below (printscreen of terminal):
+* The final script print the analysis to the terminal and export a text file with the results.
 
 <p align="left">
-  <img width="30%" src="Images/pybank_terminal.png">
+  <img width="50%" src="Images/pybank_txt.png">
 </p>
-
-
-
-
-* In addition, the final script print the analysis to the terminal and export a text file with the results.
-
-![Pybank_txt](Images/pybank_txt.png)
 
 ## PyPoll
 

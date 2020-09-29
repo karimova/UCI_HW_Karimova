@@ -24,7 +24,13 @@ budget_data.csv - a set of financial data.
   * The greatest decrease in losses (date and amount) over the entire period
 
 Obtained results can be found below (printscreen of terminal):
-![Pybank](Images/pybank_terminal.png)
+
+<p align="left">
+  <img width="200%" src="Images/pybank_terminal.png">
+</p>
+
+
+
 
 * In addition, the final script print the analysis to the terminal and export a text file with the results.
 

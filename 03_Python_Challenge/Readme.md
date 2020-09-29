@@ -26,7 +26,7 @@ budget_data.csv - a set of financial data.
 * The final script print the analysis to the terminal and export a text file with the results.
 
 <p align="left">
-  <img width="30%" src="Images/pybank_txt.png">
+  <img width="40%" src="Images/pybank_txt.png">
 </p>
 
 ## PyPoll

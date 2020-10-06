@@ -24,6 +24,7 @@ Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Reso
 <p align="left">
   <img width="15%" src="Images/total_number_players.png">
 </p>
+
 ---
 
 
@@ -37,6 +38,7 @@ Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Reso
 <p align="left">
   <img width="60%" src="Images/Purchasing_Analysis.png">
 </p>
+
 ---
 
 ### III. Gender Demographics
@@ -48,6 +50,7 @@ Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Reso
 <p align="left">
   <img width="45%" src="Images/Gender_Demographics.png">
 </p>
+
 ---
 
 ### IV. Purchasing Analysis (Gender)

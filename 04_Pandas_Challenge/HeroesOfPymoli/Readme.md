@@ -69,7 +69,7 @@ Your final report includes the following:
   * Average Purchase Total per Person by Age Group
   
    <p align="left">
-    <img width="80%" src="Images/Age_Demographics.png">
+    <img width="40%" src="Images/Age_Demographics.png">
   </p>
 
 ### VI. Top Spenders
@@ -79,6 +79,10 @@ Your final report includes the following:
   * Purchase Count
   * Average Purchase Price
   * Total Purchase Value
+----------------------
+  <p align="left">
+    <img width="40%" src="Images/Top_Spenders.png">
+  </p>
 
 ### VII. Most Popular Items
 

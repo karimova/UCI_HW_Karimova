@@ -5,6 +5,17 @@ For this assignment, I have completed `HeroesOfPymoli` Data Challenge.
 Jupyter notebook was used to run the analysis. 
 
  `HeroesOfPymoli_NVK.ipynb` - the main script.
+[VBA script](vba_code.vb) - Use this file to see the VBA script.
+
+
+## **Input Data**
+
+<p align="left">
+  <img width="50%" src="Images/raw_dataset.png">
+</p>
+<p align="center">
+ <em><b>Figure 1.</b> Initial Data of "Heroes Of Pymoli".</em>
+</p> 
 
 
 ## **Report**

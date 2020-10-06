@@ -57,7 +57,7 @@ Your final report includes the following:
   * Average Purchase Total per Person by Gender
   
   <p align="left">
-    <img width="45%" src="Images/Purchasing_Analysis_by_gender.png">
+    <img width="80%" src="Images/Purchasing_Analysis_by_gender.png">
   </p>
 
 ### V. Age Demographics
@@ -67,6 +67,10 @@ Your final report includes the following:
   * Average Purchase Price
   * Total Purchase Value
   * Average Purchase Total per Person by Age Group
+  
+   <p align="left">
+    <img width="80%" src="Images/Age_Demographics.png">
+  </p>
 
 ### VI. Top Spenders
 

@@ -1,4 +1,4 @@
-# **Pandas Challenge**
+# **Pandas Challenge "Heroes Of Pymoli"**
 
 For this assignment, I have completed `HeroesOfPymoli` Data Challenge.
 
@@ -7,7 +7,7 @@ Jupyter notebook was used to run the analysis.
  `HeroesOfPymoli_NVK.ipynb` - the main script.
 
 
-**HeroesOfPymoli**
+## **Report**
 
 Your final report includes the following:
 
@@ -38,7 +38,7 @@ Your final report includes the following:
 
 ### Age Demographics
 
-* The below each broken into bins of 4 years (i.e. &lt;10, 10-14, 15-19, etc.)
+* The below each broken into bins of 4 years (i.e. < 10, 10-14, 15-19, etc.)
   * Purchase Count
   * Average Purchase Price
   * Total Purchase Value

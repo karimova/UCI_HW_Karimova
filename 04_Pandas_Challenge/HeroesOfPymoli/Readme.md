@@ -37,6 +37,7 @@ Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Reso
 <p align="left">
   <img width="60%" src="Images/Purchasing_Analysis.png">
 </p>
+
 ---
 
 ### III. Gender Demographics
@@ -83,11 +84,11 @@ Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Reso
   * Purchase Count
   * Average Purchase Price
   * Total Purchase Value
-----------------------
+
   <p align="left">
     <img width="80%" src="Images/Top_Spenders.png">
   </p>
----
+ ---
 
 ### VII. Most Popular Items
 
@@ -101,7 +102,7 @@ Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Reso
   <p align="left">
     <img width="80%" src="Images/most_pop_items.png">
   </p>
- --- 
+--- 
 
 ### VIII. Most Profitable Items
 

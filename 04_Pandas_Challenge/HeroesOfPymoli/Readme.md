@@ -46,7 +46,7 @@ Your final report includes the following:
 * Percentage and Count of Other / Non-Disclosed
 
 <p align="left">
-  <img width="60%" src="Images/Gender_Demographics.png">
+  <img width="45%" src="Images/Gender_Demographics.png">
 </p>
 
 ### IV. Purchasing Analysis (Gender)

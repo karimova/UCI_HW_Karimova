@@ -92,6 +92,11 @@ Your final report includes the following:
   * Purchase Count
   * Item Price
   * Total Purchase Value
+  
+  <p align="left">
+    <img width="80%" src="Images/most_pop_items.png">
+  </p>
+  
 
 ### VIII. Most Profitable Items
 
@@ -101,6 +106,10 @@ Your final report includes the following:
   * Purchase Count
   * Item Price
   * Total Purchase Value
+  
+  <p align="left">
+    <img width="80%" src="Images/most_profit_items.png">
+  </p>
 
 As final considerations:
 

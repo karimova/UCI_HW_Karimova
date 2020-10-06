@@ -24,7 +24,7 @@ Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Reso
 <p align="left">
   <img width="15%" src="Images/total_number_players.png">
 </p>
--
+--
 
 
 ### II. Purchasing Analysis (Total)

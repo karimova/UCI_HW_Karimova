@@ -81,7 +81,7 @@ Your final report includes the following:
   * Total Purchase Value
 ----------------------
   <p align="left">
-    <img width="40%" src="Images/Top_Spenders.png">
+    <img width="80%" src="Images/Top_Spenders.png">
   </p>
 
 ### VII. Most Popular Items

@@ -11,7 +11,7 @@ Jupyter notebook was used to run the analysis.
 ## **Input Data**
 
 <p align="left">
-  <img width="100%" src="Images/raw_dataset.png">
+  <img width="80%" src="Images/raw_dataset.png">
 </p>
 <p align="center">
  <em><b>Figure 1.</b> Initial Data of "Heroes Of Pymoli".</em>

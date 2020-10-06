@@ -13,7 +13,7 @@ Jupyter notebook was used to run the analysis.
 <p align="left">
   <img width="80%" src="Images/raw_dataset.png">
 </p>
-<p align="center">
+<p align="leftr">
  <em><b>Figure 1.</b> Initial Data of "Heroes Of Pymoli".</em>
 </p> 
 

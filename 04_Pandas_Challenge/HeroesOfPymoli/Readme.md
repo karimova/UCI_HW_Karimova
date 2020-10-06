@@ -15,7 +15,6 @@ Jupyter notebook was used to run the analysis.
  <em><b>Figure 1.</b> Initial Data of "Heroes Of Pymoli".</em>
 </p> 
 
-
 ## **Report**
 
 Your final report includes the following:
@@ -56,6 +55,10 @@ Your final report includes the following:
   * Average Purchase Price
   * Total Purchase Value
   * Average Purchase Total per Person by Gender
+  
+  <p align="left">
+    <img width="45%" src="Images/Purchasing_Analysis_by_gender.png">
+  </p>
 
 ### V. Age Demographics
 

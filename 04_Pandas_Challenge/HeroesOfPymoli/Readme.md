@@ -6,18 +6,16 @@ Jupyter notebook was used to run the analysis.
 
 [Jupyter notebook file](HeroesOfPymoli_NVK.ipynb) - Use this script to see the following results.
 
+
 ## **Input Data**
+
+Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Resources/purchase_data.csv") file.
 
 <p align="left">
   <img width="80%" src="Images/raw_dataset.png">
 </p>
-<p align="leftr">
- <em><b>Figure 1.</b> Initial Data of "Heroes Of Pymoli".</em>
-</p> 
 
 ## **Report**
-
-Your final report includes the following:
 
 ### I. Player Count
 
@@ -26,6 +24,8 @@ Your final report includes the following:
 <p align="left">
   <img width="15%" src="Images/total_number_players.png">
 </p>
+---
+
 
 ### II. Purchasing Analysis (Total)
 
@@ -37,6 +37,7 @@ Your final report includes the following:
 <p align="left">
   <img width="60%" src="Images/Purchasing_Analysis.png">
 </p>
+---
 
 ### III. Gender Demographics
 
@@ -47,6 +48,7 @@ Your final report includes the following:
 <p align="left">
   <img width="45%" src="Images/Gender_Demographics.png">
 </p>
+---
 
 ### IV. Purchasing Analysis (Gender)
 
@@ -59,6 +61,7 @@ Your final report includes the following:
   <p align="left">
     <img width="80%" src="Images/Purchasing_Analysis_by_gender.png">
   </p>
+---
 
 ### V. Age Demographics
 
@@ -71,6 +74,7 @@ Your final report includes the following:
    <p align="left">
     <img width="40%" src="Images/Age_Demographics.png">
   </p>
+---
 
 ### VI. Top Spenders
 
@@ -83,6 +87,7 @@ Your final report includes the following:
   <p align="left">
     <img width="80%" src="Images/Top_Spenders.png">
   </p>
+---
 
 ### VII. Most Popular Items
 
@@ -96,7 +101,7 @@ Your final report includes the following:
   <p align="left">
     <img width="80%" src="Images/most_pop_items.png">
   </p>
-  
+ --- 
 
 ### VIII. Most Profitable Items
 
@@ -110,6 +115,7 @@ Your final report includes the following:
   <p align="left">
     <img width="80%" src="Images/most_profit_items.png">
   </p>
+---
 
 As final considerations:
 

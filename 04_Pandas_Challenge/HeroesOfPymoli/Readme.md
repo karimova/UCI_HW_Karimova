@@ -4,7 +4,7 @@ For this assignment, I have completed `HeroesOfPymoli` Data Challenge.
 
 Jupyter notebook was used to run the analysis. 
 
-[Jupyter script](HeroesOfPymoli_NVK.ipynb) - Use this file to see results.
+[Jupyter notebook file](HeroesOfPymoli_NVK.ipynb) - Use this script to see the following results.
 
 ## **Input Data**
 
@@ -36,7 +36,7 @@ Your final report includes the following:
 * Total Revenue
 
 <p align="left">
-  <img width="70%" src="Images/Purchasing_Analysis.png">
+  <img width="60%" src="Images/Purchasing_Analysis.png">
 </p>
 
 ### III. Gender Demographics
@@ -44,6 +44,10 @@ Your final report includes the following:
 * Percentage and Count of Male Players
 * Percentage and Count of Female Players
 * Percentage and Count of Other / Non-Disclosed
+
+<p align="left">
+  <img width="60%" src="Images/Gender_Demographics.png">
+</p>
 
 ### IV. Purchasing Analysis (Gender)
 

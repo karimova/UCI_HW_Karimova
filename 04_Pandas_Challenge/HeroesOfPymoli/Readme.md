@@ -7,7 +7,7 @@ Jupyter notebook was used to run the analysis.
 [Jupyter notebook file](HeroesOfPymoli_NVK.ipynb) - Use this script to see the following results.
 
 
-## **Input Data**
+## **I. Input Data**
 
 Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Resources/purchase_data.csv") file.
 
@@ -17,7 +17,7 @@ Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Reso
 
 ## **Report**
 
-### I. Player Count
+### II. Player Count
 
 * Total Number of Players
 

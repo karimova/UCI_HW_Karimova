@@ -2,8 +2,6 @@
 
 For this assignment, I have completed `HeroesOfPymoli` Data Challenge.
 
-Jupyter notebook was used to run the analysis. 
-
 [Jupyter notebook file](HeroesOfPymoli_NVK.ipynb) - Use this script to see the following results.
 
 

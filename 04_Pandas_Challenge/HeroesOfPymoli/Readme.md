@@ -7,7 +7,7 @@ Jupyter notebook was used to run the analysis.
 [Jupyter notebook file](HeroesOfPymoli_NVK.ipynb) - Use this script to see the following results.
 
 
-## **I. Input Data**
+## **Input Data**
 
 Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Resources/purchase_data.csv") file.
 
@@ -17,7 +17,7 @@ Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Reso
 
 ## **Report**
 
-### II. Player Count
+### I. Player Count
 
 * Total Number of Players
 
@@ -120,10 +120,18 @@ Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Reso
   </p>
 ---
 
-As final considerations:
 
-* You must use the Pandas Library and the Jupyter Notebook.
-* You must submit a link to your Jupyter Notebook with the viewable Data Frames.
-* You must include a written description of three observable trends based on the data.
-* See [Example Solution](HeroesOfPymoli/HeroesOfPymoli_starter.ipynb) for a reference on expected format.
+## **Conclusions:
+
+* Amount of male players in 6 times higher than ammount of female players. However, female players performe more expensive purchases.
+
+  <p align="left">
+    <img width="50%" src="Images/gen_dem_CHart.png">
+  </p>
+
+* This game is more popular among people between 20-24 years old.
+
+  <p align="left">
+    <img width="50%" src="Images/age_dem_CHart.png">
+  </p>
 

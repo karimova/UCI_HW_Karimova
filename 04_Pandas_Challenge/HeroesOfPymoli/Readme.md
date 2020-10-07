@@ -121,9 +121,9 @@ Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Reso
 ---
 
 
-## **Conclusions:
+## **Conclusions:**
 
-* Amount of male players in 6 times higher than ammount of female players. However, female players performe more expensive purchases.
+* Amount of male players in 6 times higher than amount of female players. However, female players performed more expensive purchases.
 
   <p align="left">
     <img width="50%" src="Images/gen_dem_CHart.png">
@@ -135,3 +135,4 @@ Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Reso
     <img width="50%" src="Images/age_dem_CHart.png">
   </p>
 
+* The most popular and profitable is **Final Critic** item.

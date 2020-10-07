@@ -121,16 +121,18 @@ Initial Data of "Heroes Of Pymoli" can be found in the [purchase_data.csv]("Reso
 
 ## **Conclusions:**
 
-* Amount of male players in 6 times higher than amount of female players. However, female players performed more expensive purchases.
+(1)   Amount of male players in 6 times higher than amount of female players. However, female players performed more expensive purchases.
 
   <p align="left">
     <img width="50%" src="Images/gen_dem_CHart.png">
   </p>
+  
 
-* This game is more popular among people between 20-24 years old.
+(2)   This game is more popular among people between 20-24 years old.
 
   <p align="left">
     <img width="50%" src="Images/age_dem_CHart.png">
   </p>
+  
 
-* The most popular and profitable is **Final Critic** item.
+(3)   The most popular and profitable is **Final Critic** item.

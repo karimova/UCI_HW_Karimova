@@ -42,7 +42,7 @@ The cleaned data were used for the remaining steps.
 
 ## **Conclusions**
 
-* In the experiment, the amount of male and female mice is close to 50/50%.
+* In the experiment, the ratio of male and female mice is close to 50/50%.
 * Calculation of the number of data mesaruments(points) for each treatment regimen showed that for Capomulin and Ramicane more data were collected with respect to other drug regimens.
 * The box plot of the final tumor volume of each mouse across four regimens (Capomulin, Ramicane, Infubinol, and Ceftamin), showed that results for Capomulin and Ramicane are very close to each other: both demonstrate the smallest tumor volume.
 

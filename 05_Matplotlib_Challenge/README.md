@@ -7,6 +7,7 @@ The executive team also has asked for a top-level summary of the study results.
 
 ## **Input Data**
 `data/Mouse_metadata.csv` - information about mice in the experiment (id, gender, weight etc)
+
 `data/Study_results.csv` - study results (tumor volume, time points etc)
 
 ## **Analysis Steps**

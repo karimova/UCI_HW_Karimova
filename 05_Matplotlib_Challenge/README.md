@@ -38,7 +38,7 @@ The cleaned data were used for the remaining steps.
 
 ## **Output file**
 
-`pymaceuticals_starter.ipynb` - jupyter notebook file
+`Pymaceuticals/pymaceuticals_starter.ipynb` - jupyter notebook file
 
 ## **Conclusions**
 

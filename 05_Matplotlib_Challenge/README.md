@@ -35,3 +35,13 @@ The cleaned data were used for the remaining steps.
 * The correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment were calculated. 
 
 * The linear regression model on top of the previous scatter plot was ploted.
+
+## **Output file**
+
+`pymaceuticals_starter.ipynb` - jupyter notebook file
+
+## **Conclusions**
+
+* 
+
+

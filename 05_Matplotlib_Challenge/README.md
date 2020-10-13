@@ -9,7 +9,7 @@ The executive team also has asked for a top-level summary of the study results.
 In the beginning of the analysis, the data for any mouse ID was checked with duplicate time points. All duplicates were removed any data associated with that mouse ID.
 
 
-## **Analisys Steps:**
+## **Analysis Steps:**
 
 The cleaned data were used for the remaining steps.
 

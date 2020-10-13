@@ -1,16 +1,17 @@
 # **Matplotlib - The Power of Plots**
 
-In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. 
-Over the course of 45 days, tumor development was observed and measured. 
-The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens. 
-You have been tasked by the executive team to generate all of the tables and figures needed for the technical report of the study. 
+Pymaceuticals Inc.is a pharmaceutical company based out of San Diego. Pymaceuticals specializes in anti-cancer pharmaceuticals. In its most recent efforts, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens. 
+
+Matplotlib Analysis have been performed to generate all of the tables and figures needed for the technical report of the study. 
 The executive team also has asked for a top-level summary of the study results.
 
+## **Input Data**
+`data/Mouse_metadata.csv` - information about mice in the experiment (id, gender, weight etc)
+`data/Study_results.csv` - study results (tumor volume, time points etc)
+
+## **Analysis Steps**
+
 In the beginning of the analysis, the data for any mouse ID was checked with duplicate time points. All duplicates were removed any data associated with that mouse ID.
-
-
-## **Analysis Steps:**
-
 The cleaned data were used for the remaining steps.
 
 * A summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen was generated.

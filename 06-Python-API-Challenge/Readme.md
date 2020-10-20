@@ -39,7 +39,17 @@ The second step is to run linear regression on each relationship. This time, cit
 
 ![max_temp](WeatherPy/Images/Southern_Hemisphere_City_Latitude_vs_Max_Temperature.png)
 
+![hum](WeatherPy/Images/Northern_Hemisphere_City_Latitude_vs_Humidity.png)
 
+![hum](WeatherPy/Images/Southern_Hemisphere_City_Latitude_vs_Humidity.png)
+
+![cloud](WeatherPy/Images/Northern_Hemisphere_City_Latitude_vs_Cloudiness.png)
+
+![cloud](WeatherPy/Images/Southern_Hemisphere_City_Latitude_vs_Cloudiness.png)
+
+![wind](WeatherPy/Images/Northern_Hemisphere_City_Latitude_vs_Wind_Speed.png)
+
+![wind](WeatherPy/Images/Southern_Hemisphere_City_Latitude_vs_Wind_Speed.png)
 
 ## Conclutions - Part I.
 

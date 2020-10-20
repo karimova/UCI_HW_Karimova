@@ -22,12 +22,19 @@ In the first step, a series of scatter plots to showcase the following relations
 
 * Temperature (F) vs. Latitude
 
-![max_temp](WeatherPy/Images/City Latitude vs Max Temperature.png)
+![max_temp](WeatherPy/Images/City_Latitude_vs_Max_Temperature.png)
 
-Humidity (%) vs. Latitude
-Cloudiness (%) vs. Latitude
-Wind Speed (mph) vs. Latitude
+* Humidity (%) vs. Latitude
 
+![humidity](WeatherPy/Images/City_Latitude_vs_Humidity.png)
+
+* Cloudiness (%) vs. Latitude
+
+![cloudiness](WeatherPy/Images/City_Latitude_vs_Cloudiness.png)
+
+* Wind Speed (mph) vs. Latitude
+
+![wind](WeatherPy/Images/City_Latitude_vs_Wind_Speed.png)
 
 
 

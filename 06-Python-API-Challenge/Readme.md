@@ -20,15 +20,26 @@ In this part, a Python script to visualize the weather of 500+ cities across the
 
 In the first step, a series of scatter plots to showcase the following relationships were created:
 
-* Temperature (F) vs. Latitude
 
-![max_temp](WeatherPy/Images/City Latitude vs Max Temperature.png)
-
-Humidity (%) vs. Latitude
-Cloudiness (%) vs. Latitude
-Wind Speed (mph) vs. Latitude
+![max_temp](WeatherPy/Images/City_Latitude_vs_Max_Temperature.png)
 
 
+![humidity](WeatherPy/Images/City_Latitude_vs_Humidity.png)
+
+
+![cloudiness](WeatherPy/Images/City_Latitude_vs_Cloudiness.png)
+
+
+![wind](WeatherPy/Images/City_Latitude_vs_Wind_Speed.png)
+
+
+## Conclutions - Part I.
+
+* Highest temperature is found for cities with latitudes between 20 and -20. Temperature significantly drops with increasing the latitude.
+
+* Cities from the Northern Hemisphere have lower humidity with respect to the cities from the Southern Hemisphere.
+
+* 
 
 
 ## **Part II - VacationPy**

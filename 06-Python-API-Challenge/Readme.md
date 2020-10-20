@@ -33,13 +33,14 @@ In the first step, a series of scatter plots to showcase the following relations
 ![wind](WeatherPy/Images/City_Latitude_vs_Wind_Speed.png)
 
 
+
 ## Conclutions - Part I.
 
 * Highest temperature is found for cities with latitudes between 20 and -20. Temperature significantly drops with increasing the latitude.
 
 * Cities from the Northern Hemisphere have lower humidity with respect to the cities from the Southern Hemisphere.
 
-* 
+* Wind Speed (mph) data for all latitutes are mainly concentrate in the   
 
 
 ## **Part II - VacationPy**

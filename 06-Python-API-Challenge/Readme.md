@@ -20,19 +20,15 @@ In this part, a Python script to visualize the weather of 500+ cities across the
 
 In the first step, a series of scatter plots to showcase the following relationships were created:
 
-* Temperature (F) vs. Latitude
 
 ![max_temp](WeatherPy/Images/City_Latitude_vs_Max_Temperature.png)
 
-* Humidity (%) vs. Latitude
 
 ![humidity](WeatherPy/Images/City_Latitude_vs_Humidity.png)
 
-* Cloudiness (%) vs. Latitude
 
 ![cloudiness](WeatherPy/Images/City_Latitude_vs_Cloudiness.png)
 
-* Wind Speed (mph) vs. Latitude
 
 ![wind](WeatherPy/Images/City_Latitude_vs_Wind_Speed.png)
 

@@ -20,7 +20,6 @@ In this part, a Python script to visualize the weather of 500+ cities across the
 
 In the first step, a series of scatter plots to showcase the following relationships were created:
 
-
 ![max_temp](WeatherPy/Images/City_Latitude_vs_Max_Temperature.png)
 
 
@@ -31,6 +30,12 @@ In the first step, a series of scatter plots to showcase the following relations
 
 
 ![wind](WeatherPy/Images/City_Latitude_vs_Wind_Speed.png)
+
+The second step is to run linear regression on each relationship. This time, cities were separating into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+
+![max_temp](WeatherPy/Images/Northern_Hemisphere_City_Latitude_vs_Max_Temperature.png)
+
+![max_temp](WeatherPy/Images/Southern_Hemisphere_City_Latitude_vs_Max_Temperature.png)
 
 
 

@@ -35,9 +35,7 @@ In the first step, a series of scatter plots to showcase the following relations
 
 The second step is to run linear regression on each relationship. This time, cities were separating into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
-![max_temp](WeatherPy/Images/Northern_Hemisphere_City_Latitude_vs_Max_Temperature.png)
 
-![max_temp](WeatherPy/Images/Southern_Hemisphere_City_Latitude_vs_Max_Temperature.png)
 
 
 

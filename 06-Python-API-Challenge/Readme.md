@@ -106,7 +106,15 @@ The value of (R<sup>2</sup>) is 0.09267616215139951
 
 Now obtained weather data can be used to plan future vacations. Jupyter-gmaps and the Google Places API were used for this part of the project.
 
+* Heat map that displays the humidity for every city from the part I of the project was generated.
 
+  ![heatmap](VacationPy/Images/Humidity_Heatmap.png)
 
+- Narrow down the DataFrame to find my ideal weather condition. For example:
 
+  - A max temperature lower than 80 degrees but higher than 70.
+  - Wind speed less than 10 mph.
+  - Zero cloudiness.
+  - Drop any rows that don't contain all three conditions.
 
+![heatmap](VacationPy/Images/Hotel_Map.png)

@@ -35,21 +35,61 @@ In the first step, a series of scatter plots to showcase the following relations
 
 The second step is to run linear regression on each relationship. This time, cities were separating into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
+#### Northern Hemisphere - Temperature (F) vs. Latitude
+
+The value of R(n<sup>2</sup>) is 0.6928352119310256
+
 ![max_temp](WeatherPy/Images/Northern_Hemisphere_City_Latitude_vs_Max_Temperature.png)
+
+
+#### Southern Hemisphere - Temperature (F) vs. Latitude
+
+The value of R(n<sup>2</sup>) is 0.29777248084213165
 
 ![max_temp](WeatherPy/Images/Southern_Hemisphere_City_Latitude_vs_Max_Temperature.png)
 
+
+#### Northern Hemisphere - Humidity (%) vs. Latitude
+
+The value of R(n<sup>2</sup>) is 0.29777248084213165
+
 ![hum](WeatherPy/Images/Northern_Hemisphere_City_Latitude_vs_Humidity.png)
+
+
+#### Southern Hemisphere - Humidity (%) vs. Latitude
+
+The value of R(n<sup>2</sup>) is 0.036520078332717434
 
 ![hum](WeatherPy/Images/Southern_Hemisphere_City_Latitude_vs_Humidity.png)
 
+
+#### Northern Hemisphere - Cloudiness (%) vs. Latitude
+
+The value of R(n<sup>2</sup>) is 0.06510856728144215
+
 ![cloud](WeatherPy/Images/Northern_Hemisphere_City_Latitude_vs_Cloudiness.png)
+
+
+#### Southern Hemisphere - Cloudiness (%) vs. Latitude
+
+The value of R(n<sup>2</sup>) is 0.02222779724000044
 
 ![cloud](WeatherPy/Images/Southern_Hemisphere_City_Latitude_vs_Cloudiness.png)
 
+
+#### Northern Hemisphere - Wind Speed (mph) vs. Latitude
+
+The value of R(n<sup>2</sup>) is 0.015428689903624284
+
 ![wind](WeatherPy/Images/Northern_Hemisphere_City_Latitude_vs_Wind_Speed.png)
 
+
+#### Southern Hemisphere - Wind Speed (mph) vs. Latitude
+
+The value of R(n<sup>2</sup>) is 0.00022051436367263692
+
 ![wind](WeatherPy/Images/Southern_Hemisphere_City_Latitude_vs_Wind_Speed.png)
+
 
 ## Conclutions - Part I.
 

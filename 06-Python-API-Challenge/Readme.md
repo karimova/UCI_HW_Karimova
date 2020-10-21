@@ -106,7 +106,7 @@ The value of (R<sup>2</sup>) is 0.09267616215139951
 
 Now obtained weather data can be used to plan future vacations. Jupyter-gmaps and the Google Places API were used for this part of the project.
 
-`WeatherPy/ouput_data/cities.csv` - data location
+`WeatherPy/output_data/cities.csv` - data location
 
 * Heat map that displays the humidity for every city from the part I of the project was generated.
 

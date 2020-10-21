@@ -93,13 +93,16 @@ The value of (R<sup>2</sup>) is 0.09267616215139951
 ![wind](WeatherPy/Images/Southern_Hemisphere_City_Latitude_vs_Wind_Speed.png)
 
 
-### Conclutions - Part I.
+### Conclutions.
 
 * Highest temperature is found for cities with latitudes between 20 and -20. Temperature significantly drops with increasing the latitude.
 
 * Cities from the Northern Hemisphere have lower humidity with respect to the cities from the Southern Hemisphere.
 
-* Wind Speed (mph) data for all latitutes are mainly concentrate in the   
+* Wind Speed (mph) data for all latitutes are mainly concentrate in the 
+There seems to be little to no correlation between humidity and Latitude as well as with cloudiness and Latitude. The scatter plot visualizations display a considerable amount of heterogeneity even at similar Latitudes. Basically, they're all over the map. However, a small grouping of cities exhibited abnormally low humity levels (at 0% humidity) in the Northern Hemisphere at around 60° to 75° Latitude.
+
+Finally, wind speeds increase in the upper and lower halves on the hemisphere, especially in the north (around 60° to 70° Latitude), and do not go above 25mph within 30° of the Equator.
 
 
 ## **Part II - VacationPy**

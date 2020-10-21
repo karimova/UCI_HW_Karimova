@@ -95,7 +95,7 @@ The value of (R<sup>2</sup>) is 0.09267616215139951
 
 ### Conclutions.
 
-* Highest temperature is found for cities with latitudes between 20 and -20. Temperature significantly drops with increasing the latitude.
+* Highest temperature is found for cities with latitudes between 20 and -20 degrees. Temperature significantly drops with increasing the latitude.
 
 * The strong correclation was found bewteen (Max Temperature and Latitude). However, there are no obvious correlation between (humidity and Latitude) and (cloudiness and Latitude).
 

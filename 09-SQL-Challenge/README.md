@@ -9,56 +9,19 @@ In this research project, we are focused on employees of the corporation (Pewlet
 * salaries.csv
 * titles.csv
 
-
-
-
-
-
-In this project, we will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data:
+We will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data:
 
 1. Data Engineering
 
 2. Data Analysis
 
 
-# Employee-Database-A-Mystery-in-Two-Parts
-## Look at end of page to see SQL database being imported and used in Pandas
-
-Data Modeling, Data Engineering and Data Analysis-PostgreSQL
-
-This project showcases the use and power of creating SQL databases and queries.
-
-### Input
-There are 6 data sets shown below:
-
-
-## Background
-
-It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
-
-In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
-
-1. Data Engineering
-
-3. Data Analysis
-
-Note: You may hear the term "Data Modeling" in place of "Data Engineering," but they are the same terms. Data Engineering is the more modern wording instead of Data Modeling.
-
-### Before You Begin
-
-1. Create a new folder for this project called `sql-challenge`. **Do not add this homework to an existing folder**.
-
-2. Inside your local git repository, create a directory for the SQL challenge. Use a folder name to correspond to the challenge: **EmployeeSQL**.
-
-3. Add your files to this folder.
-
-4. Push the above changes to GitHub.
-
-## Instructions
-
 #### Data Modeling
 
-Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
+Inspect the CSVs and sketch out an ERD of the tables. 
+QuickDBD tool was used to scetch EDR [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
+
+[edr_schemata](Images/QuickDBD-fig.png)
 
 #### Data Engineering
 

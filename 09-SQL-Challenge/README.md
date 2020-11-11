@@ -59,7 +59,9 @@ After the database was completed the following procedures were performed:
 
  ![hist](Images/Histogram_Salary.png)
 
-3. Create a bar chart of average salary by title.
+3. A bar chart of average salary by title was created.
+
+![bar_chart](Images/Title_vs_Average_Salary.png)
 
 ## Epilogue
 

@@ -56,7 +56,8 @@ After the database was completed the following procedures were performed:
 1. SQL database was import into Pandas using sqlalchemy method.
 
 2. Create a histogram to visualize the most common salary ranges for employees was generated.
- ![hist](Image/Histogram_Salary.png)
+
+ ![hist](Images/Histogram_Salary.png)
 
 3. Create a bar chart of average salary by title.
 

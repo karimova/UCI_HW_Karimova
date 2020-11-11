@@ -33,6 +33,7 @@ The SQL sctipt for ERD schema can be found here: [EDR_schemata.sql](EDR_schemata
 
 Each CSV file was imported into into the corresponding SQL table.
 
+
 After the database was completed the following procedures were performed:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.

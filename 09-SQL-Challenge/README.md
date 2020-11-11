@@ -15,26 +15,25 @@ We will design the tables to hold data in the CSVs, import the CSVs into a SQL d
 
 2. Data Analysis
 
-
 ## Data Modeling
 
 Inspect the CSVs and sketch out an ERD of the tables.
 
 QuickDBD tool was used to scetch EDR [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
-Data types, primary keys, foreign keys, and other constraints were specified.
+Data types, primary keys, foreign keys, and other constraints were specified:
 
 <img src="Images/QuickDBD-fig.png">
 
-## Data Engineering
+The SQL sctipt for ERD schema can be found here: [EDR_schemata.sql](EDR_schemata.sql) 
+
+## Data Engineering and Analysis
+
+[Data_Modeling.sql](Data_Modeling.sql) script was used for this part.
 
 Each CSV file was imported into into the corresponding SQL table.
 
-Data_Modeling.sql script [link](Data_Modeling.sql)
-
-## Data Analysis
-
-Once you have a complete database, do the following:
+After the database was completed the following procedures were performed:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 

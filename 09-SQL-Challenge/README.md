@@ -1,6 +1,36 @@
-# SQL Homework - Employee Database: A Mystery in Two Parts
+# **Employee Database: A Mystery in Two Parts**
 
-![sql.png](sql.png)
+In this research project, we are focused on employees of the corporation (Pewlett Hackard) from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files:
+
+* departments.csv
+* dept_emp.csv
+* dept_manager.csv
+* employees.csv
+* salaries.csv
+* titles.csv
+
+
+
+
+
+
+In this project, we will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data:
+
+1. Data Engineering
+
+2. Data Analysis
+
+
+# Employee-Database-A-Mystery-in-Two-Parts
+## Look at end of page to see SQL database being imported and used in Pandas
+
+Data Modeling, Data Engineering and Data Analysis-PostgreSQL
+
+This project showcases the use and power of creating SQL databases and queries.
+
+### Input
+There are 6 data sets shown below:
+
 
 ## Background
 

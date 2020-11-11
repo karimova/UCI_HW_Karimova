@@ -16,25 +16,23 @@ We will design the tables to hold data in the CSVs, import the CSVs into a SQL d
 2. Data Analysis
 
 
-#### Data Modeling
+## Data Modeling
 
-Inspect the CSVs and sketch out an ERD of the tables. 
+Inspect the CSVs and sketch out an ERD of the tables.
+
 QuickDBD tool was used to scetch EDR [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
+
+Data types, primary keys, foreign keys, and other constraints were specified.
 
 <img src="Images/QuickDBD-fig.png">
 
-[edr_schemata](Images/QuickDBD-fig.png)
+## Data Engineering
 
-#### Data Engineering
+Each CSV file was imported into into the corresponding SQL table.
 
-* Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
+Data_Modeling.sql script [link](Data_Modeling.sql)
 
-  * For the primary keys check to see if the column is unique, otherwise create a [composite key](https://en.wikipedia.org/wiki/Compound_key). Which takes to primary keys in order to uniquely identify a row.
-  * Be sure to create tables in the correct order to handle foreign keys.
-
-* Import each CSV file into the corresponding SQL table. **Note** be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
-
-#### Data Analysis
+## Data Analysis
 
 Once you have a complete database, do the following:
 

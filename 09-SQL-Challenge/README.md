@@ -21,6 +21,8 @@ We will design the tables to hold data in the CSVs, import the CSVs into a SQL d
 Inspect the CSVs and sketch out an ERD of the tables. 
 QuickDBD tool was used to scetch EDR [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
+<img src="Images/QuickDBD-fig.png">
+
 [edr_schemata](Images/QuickDBD-fig.png)
 
 #### Data Engineering

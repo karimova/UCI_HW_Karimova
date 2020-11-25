@@ -1,0 +1,123 @@
+body{
+    background-color: #dfd9d9; 
+}
+/* Navbar */
+.navbar{
+    max-height: 45px;
+    margin-bottom: 60px; 
+}
+
+.navbar-expand-lg{
+    background-color: white;
+}
+
+.navbar-light .navbar-brand {
+    background-color: #0f8d87;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px 15px;  
+} 
+
+
+.panel-l {
+    margin-left: 100px;
+    padding: 10px 20px 15px; 
+    color:rgb(92, 89, 89);
+    background-color: white; 
+  }
+  
+.panel-r {
+    margin-right: 100px;
+    background-color: white;
+    padding: 10px 20px 15px;
+    color:rgb(92, 89, 89);
+    background-color: white;
+  }
+
+.grey {
+    background: white;
+  }
+  
+/* Title Class  */
+.title{
+    color: #0BADA6;  
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    padding-top: 10px; 
+}
+
+/* Paragraph Element */
+.panel-body {
+    color: rgb(80, 76, 76);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+/* Table */
+.dataframe {
+    font-size: 15px; 
+    border-top-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.box {
+    margin-top: 60px;
+    background-color: white;
+    padding: 10px 20px 15px; 
+}
+
+.img {
+    width:100%;
+    height:100%;
+    padding: 20px;
+}
+
+.title-center {
+    text-align: center;
+    color: #0BADA6;  
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    padding-top: 10px; 
+}
+
+.select:hover{
+    border-image: 3px;
+    border-color:#0f8d87;
+    border-style: solid; 
+}
+
+
+
+.main-fig {
+    width:100%;
+}
+
+/* Media Queries */
+@media(max-width: 960px){
+    .panel-r {
+        margin: 0px;
+    }
+    .panel-l {
+        margin: 0px;
+    }
+    .navbar-expand-lg{
+        background-color:#0f8d87;
+    }
+    .navbar-light  {
+        padding: 0px;
+        background-color: none;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+
+

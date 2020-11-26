@@ -2,9 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
   <title>Bootstrap Components</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -42,6 +40,7 @@
   </nav>
 <!--Box creation-->
 <div class="box"> 
+
 <div class="container-fluid">
     <!--Normally these medium columns go full wide on small screen sizes-->
     <div class="row">
@@ -49,64 +48,58 @@
       <!-- Left Box -->
       <div class="col-md-7 col-sm-12">
         <div class="panel-l">
-            <div class="panel-body">
-                <h2 class="title">Summary: Latitude vs. X</h2>
-                <hr>
-                <br>
-                <img src="Resources/assets/images/Fig1.png" class="rounded float-left"  style="width:250px" alt="Max_Temperature_vs_Latitude">
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-                  accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
-                  500 cities.</p>
-                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-                  Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
-                  source data and visualizations created as part of the analysis, as well as explanations and descriptions of
-                  any trends and correlations witnessed.</p>
-                </div>
-    
+          <div class="panel-body">
+            <h2 class="title">Cloudiness</h2>
+            <hr>
+            <br>
+            <img src="Resources/assets/images/Fig3.png" class="main-fig" alt="Max_Temperature_vs_Latitude">
+            <p>Cloudiness does not show a strong correlation to latitude. The visualization shows a great variety of
+              cloudiness percentages at different latitudes. Therefore, we cannot conclude that there is a conclusive
+              pattern between cloudiness and latitude.</p>
         </div>
+      </div>
       </div>
 
       <!-- Right Box -->
       <div class="col-md-5 col-sm-12">
         <div class="panel-r">
-            <div class="panel-body">
-                <h3 class="title">Visualizations</h3>
-                <hr>
-                <br>
-                <div class="row" >
-                    <!-- Fig1 -->
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                        <a href="max_temp.html">
-                            <img class="rounded float-left" src="Resources/assets/images/Fig1.png" alt="Max_Temp"  style="width:100%">
-                        </a>
-                    </div>
-                    <br>
-                    <!-- Fig2 -->
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                        <a href="humidity.html">
-                            <img class="rounded float-right" src="Resources/assets/images/Fig2.png" alt="Humidity" style="width:100%">
-                        </a>
-                    </div>
+          <div class="panel-body">
+            <h3 class="title">Visualizations</h3>
+            <hr>
+            <br>
+            <div class="row" >
+                <!-- Fig1 -->
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <a href="max_temp.html">
+                        <img class="img select rounded float-left" src="Resources/assets/images/Fig1.png" alt="Max_Temp" style="width:100%">
+                    </a>
                 </div>
                 <br>
-    
-                <div class="row" >
-                    <!-- Fig3 -->
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                        <a href="cloudiness.html">
-                            <img class="rounded float-left" src="Resources/assets/images/Fig3.png" alt="Cloudiness" style="width:100%">
-                        </a>
-                    </div>
-                    <br>
-                    <!-- Fig4 -->
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                        <a href="wind_speed.html">
-                            <img class="rounded float-right" src="Resources/assets/images/Fig4.png" alt="Wind_Speed" style="width:100%">
-                        </a>
-                    </div>
+                <!-- Fig2 -->
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <a href="humidity.html">
+                        <img class="img select rounded float-right" src="Resources/assets/images/Fig2.png" alt="Humidity" style="width:100%">
+                    </a>
+                </div>
+            </div>
+            <br>
+
+            <div class="row" >
+                <!-- Fig3 -->
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <a href="cloudiness.html">
+                        <img class="img select rounded float-left" src="Resources/assets/images/Fig3.png" alt="Cloudiness"  style="width:100%; border:3px; border-color:#0f8d87; border-style: solid;">
+                    </a>
+                </div>
+                <br>
+                <!-- Fig4 -->
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <a href="wind_speed.html">
+                        <img class="img select rounded float-right" src="Resources/assets/images/Fig4.png" alt="Wind_Speed" style="width:100%">
+                    </a>
                 </div>
               </div>
-        
+            </div>
 
         </div>
       </div>
@@ -116,12 +109,11 @@
   </div>
 </div>
 
-
-
+</body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-</body>
+
 </html>

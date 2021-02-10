@@ -52,4 +52,7 @@ Two the most popular stations to start and end the ris are: Grove St. Path and N
 
 3. ### Gender Distributions
 
+Gender distribution analysis shows that men use the CityBike more actevly (59%) with respect to the woman (25%). 
+Note: There were 15% users did not provide gender information.
 
+![gender](Images/Picture2.png)

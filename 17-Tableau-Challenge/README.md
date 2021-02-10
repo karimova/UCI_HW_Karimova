@@ -64,3 +64,20 @@ The most popular days to ride are Saturday and Sunday.
 During the 2020 the maximum trips was obsirved between May and November. April has a very strong deep that may be realted to the COVID lockdown in spring time. December minimum can be asing with cold weather during the winter time.
 
 ![ride_activity](Images/Picture7.png)
+
+5. ### Average Trip time (min) by Age
+
+The longest rides observed for age benween: 
+
+(i) 15 and 25 years old,
+
+(ii) 50 and 52 years old.
+
+![trip time](Images/Picture4.png)
+
+6. ### Total amount of hours each bike were used (top 5 exstensivley used bikes)
+
+The mostly used bike is #45173. It was used for 999 hours total.
+
+![trip time](Images/Picture5.png)
+

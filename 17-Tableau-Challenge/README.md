@@ -37,3 +37,9 @@ The final submission includes:
   * 1 Story 
 
 ## Results
+
+1. Map visualization for city officials.
+
+People prefer to travel from Jersey City to Manhattan by bike. We can see that all start stations are concentrated in Jersey. However, the the returning stations are located in both cities: Jersey and New York.
+
+![map](Images/Picture1.png)

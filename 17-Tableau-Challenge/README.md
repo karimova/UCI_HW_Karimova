@@ -48,5 +48,8 @@ People prefer to travel from Jersey City to Manhattan by bike. We can see that a
 
 Two the most popular stations to start and end the ris are: Grove St. Path and Newport Pkwy.
 
-![stations](Images/Picture2.png)
+![stations](Images/Picture3.png)
+
+3. ### Gender Distributions
+
 

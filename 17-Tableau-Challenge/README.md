@@ -55,4 +55,12 @@ Two the most popular stations to start and end the ris are: Grove St. Path and N
 Gender distribution analysis shows that men use the CityBike more actevly (59%) with respect to the woman (25%). 
 Note: There were 15% users did not provide gender information.
 
-![gender](Images/Picture2.png)
+![gender](Images/Picture6.png)
+
+4. ### Ride activity by gender
+
+The most popular days to ride are Saturday and Sunday.
+
+During the 2020 the maximum trips was obsirved between May and November. April has a very strong deep that may be realted to the COVID lockdown in spring time. December minimum can be asing with cold weather during the winter time.
+
+![ride_activity](Images/Picture7.png)

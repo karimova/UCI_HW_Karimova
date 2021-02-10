@@ -38,8 +38,15 @@ The final submission includes:
 
 ## Results
 
-1. Map visualization for city officials.
+1. ### Map visualization for city officials.
 
 People prefer to travel from Jersey City to Manhattan by bike. We can see that all start stations are concentrated in Jersey. However, the the returning stations are located in both cities: Jersey and New York.
 
 ![map](Images/Picture1.png)
+
+2. ### The most popular stations to start and to end the ride
+
+Two the most popular stations to start and end the ris are: Grove St. Path and Newport Pkwy.
+
+![stations](Images/Picture2.png)
+

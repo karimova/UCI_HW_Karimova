@@ -33,7 +33,7 @@ Output file location: "analysis/output.txt"
 * The final script print the analysis to the terminal and export a text file with the results.
 
 <p align="left">
-  <img width="50%" src="Images/pybank_txt.png">
+ <img width="50%" src="Images/pybank_txt.png">
 </p>
 
 ## PyPoll
